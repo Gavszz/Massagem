@@ -1,0 +1,12 @@
+.tituloPrincipal{
+    font-family: "Roboto Slab", serif;
+    font-size: 40px;
+}
+
+.botaoVoltar{
+    font-size: 18px;
+    border: 20%;
+    border-radius: 10%;
+    background-color: white;
+    color: black;
+}

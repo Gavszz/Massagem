@@ -1,0 +1,91 @@
+/* Fundo e centralização */
+body {
+  background-color: #f0e8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Playfair Display", serif;
+  margin: 0;
+}
+
+/* Container principal */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo do formulário */
+form {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px 50px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Título */
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Campos de texto */
+input {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  margin: 8px 0 15px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+/* Efeito ao focar no campo */
+input:focus {
+  border-color: #ffbdbd;
+  box-shadow: 0 0 6px rgba(255, 188, 188, 0.5);
+  outline: none;
+}
+
+/* Botão */
+button {
+  background-color: #ffe6e6;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #333;
+  padding: 10px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffbdbd;
+  color: white;
+}
+
+/* Texto abaixo do formulário */
+h2 {
+  font-size: 16px;
+  color: #444;
+  margin-top: 20px;
+}
+
+a {
+  color: #ff9b9b;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ff6f6f;
+}
